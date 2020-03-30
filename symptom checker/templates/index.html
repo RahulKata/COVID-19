@@ -19,9 +19,13 @@
     <title>COVID Infection Probability</title>
   </head>
 
-  <body>
+  <body style="background-color:#ffc50d;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Risk-O-Meter</a>
+      <a class="navbar-brand" href="#"
+        ><span class="badge badge-warning" style="font-size: 160%;"
+          >Risk-O-Meter</span
+        ></a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -66,7 +70,11 @@
     </nav>
 
     <div class="container jumbotron mt-4">
-      <h2 class="mt-4 text-center display-4">CoVID-19 Infection Estimator</h2>
+      <h2 class="mt-4 text-center display-4">
+        <span class="badge badge-dark" style="font-size: 120%;"
+          >CoVID-19 Infection Estimator</span
+        >
+      </h2>
     </div>
 
     <div class="container">
@@ -77,6 +85,7 @@
             class="form-control"
             id="name"
             placeholder="Enter your full name"
+            required
           />
         </div>
         <div class="form-group">
@@ -90,6 +99,7 @@
             id="temperature"
             placeholder="Your Body Temperature"
             name="temperature"
+            required
           />
         </div>
 
@@ -98,7 +108,7 @@
             <div class="col-4">
               Do you have Cough?
             </div>
-            <div class="col-1">
+            <div class="col-1 col-sm-2">
               <div class="custom-control custom-radio custom-control-inline">
                 <input
                   class="custom-control-input"
@@ -110,7 +120,7 @@
                 <label class="custom-control-label" for="cough1">Yes</label>
               </div>
             </div>
-            <div class="col-1">
+            <div class="col-1 col-sm-2">
               <div class="custom-control custom-radio custom-control-inline">
                 <input
                   class="custom-control-input"
@@ -130,7 +140,7 @@
             <div class="col-4">
               Do you have Headache?
             </div>
-            <div class="col-1">
+            <div class="col-1 col-sm-2">
               <div class="custom-control custom-radio custom-control-inline">
                 <input
                   class="custom-control-input"
@@ -142,7 +152,7 @@
                 <label class="custom-control-label" for="headache1">Yes</label>
               </div>
             </div>
-            <div class="col-1">
+            <div class="col-1 col-sm-2">
               <div class="custom-control custom-radio custom-control-inline">
                 <input
                   class="custom-control-input"
@@ -162,7 +172,7 @@
             <div class="col-4">
               Do you have Bodypains?
             </div>
-            <div class="col-1">
+            <div class="col-1 col-sm-2">
               <div class="custom-control custom-radio custom-control-inline">
                 <input
                   class="custom-control-input"
@@ -174,7 +184,7 @@
                 <label class="custom-control-label" for="bodypain1">Yes</label>
               </div>
             </div>
-            <div class="col-1">
+            <div class="col-1 col-sm-2">
               <div class="custom-control custom-radio custom-control-inline">
                 <input
                   class="custom-control-input"
@@ -194,7 +204,7 @@
             <div class="col-4">
               How severe is your shortness of Breath?
             </div>
-            <div class="col-1">
+            <div class="col-1 col-sm-2">
               <div class="custom-control custom-radio custom-control-inline">
                 <input
                   class="custom-control-input"
@@ -206,7 +216,7 @@
                 <label class="custom-control-label" for="breath1">None</label>
               </div>
             </div>
-            <div class="col-1">
+            <div class="col-1 col-sm-2">
               <div class="custom-control custom-radio custom-control-inline">
                 <input
                   class="custom-control-input"
@@ -218,7 +228,7 @@
                 <label class="custom-control-label" for="breath2">Mild</label>
               </div>
             </div>
-            <div class="col-1">
+            <div class="col-1 col-sm-2">
               <div class="custom-control custom-radio custom-control-inline">
                 <input
                   class="custom-control-input"
