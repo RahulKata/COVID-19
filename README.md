@@ -5,4 +5,4 @@
 * Dataset used is completely fictitious as I couldn't find any symptom based dataset
 * The website preview is attached below
 
-![Risk-O-Meter](/symptom_checker/sym0.png =459x291)
+<img src="/symptom_checker/sym0.png" alt="Risk-O-Meter" height="291" width="459">
