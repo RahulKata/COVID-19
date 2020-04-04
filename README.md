@@ -14,4 +14,4 @@
 - The model metrics are showed below (x - indicates EarlyStopping).
 
 
-<img src="/x_ray_classifier/loss_curve.jpg" alt="Metrics" height="351" width="600">
+<img src="/x_ray_classifier/loss_curve.jpg" alt="Metrics">
