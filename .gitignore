@@ -2,3 +2,4 @@
 /CORD/*
 .vscode
 __pycache__
+x_ray_classifier/x_ray.h5
